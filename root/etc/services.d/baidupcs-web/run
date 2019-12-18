@@ -1,4 +1,9 @@
 #! /usr/bin/with-contenv bash
 
 # 启动BaiduPCS-Go
-exec BaiduPCS-Go
+exec \
+	s6-setuidgid abc BaiduPCS-Go
+  > /dev/stdout \
+  2 > /dev/stderr
+
+echo 'Exiting BaiduPCS-Go'
