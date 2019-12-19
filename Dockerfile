@@ -9,9 +9,9 @@ COPY  root /
 
 RUN wget --no-check-certificate https://github.com/liuzhuoling2011/baidupcs-web/releases/download/${BaiduPCSGo_VER}/BaiduPCS-Go-${BaiduPCSGo_VER}-linux-amd64.zip \
 &&  unzip BaiduPCS-Go-${BaiduPCSGo_VER}-linux-amd64.zip \
-&&  mv BaiduPCS-Go-${BaiduPCSGo_VER}-linux-amd64/BaiduPCS-Go /usr/local/bin/BaiduPCS-Go \
+&&  mv BaiduPCS-Go-${BaiduPCSGo_VER}-linux-amd64/BaiduPCS-Go /usr/bin/BaiduPCS-Go \
 &&  rm -rf BaiduPCS-Go-${BaiduPCSGo_VER}-linux-amd64*  \
-&&  chmod a+x /usr/local/bin/BaiduPCS-Go
+&&  chmod a+x /usr/bin/BaiduPCS-Go
 
 VOLUME /root/Downloads /config
 EXPOSE 5299

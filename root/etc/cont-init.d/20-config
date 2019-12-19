@@ -13,5 +13,4 @@ fi
 
 # permissions
 chown -R abc:abc \
-	/root/.config \
-    /root/Downloads
+	/root
