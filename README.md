@@ -31,9 +31,9 @@ PS：docker hub的用户是无法看到GitHub中的图片，会显示为框框�
 
 群晖用户请使用你当前的用户SSH进系统，输入 ``id 你的用户id`` 获取到你的UID和GID并输入进去
 
-![](https://github.com/SuperNG6/pic/blob/master/aria2/Xnip2019-12-06_21-12-22.png)
-![](https://github.com/SuperNG6/pic/blob/master/aria2/Xnip2019-09-27_19-19-02.png)
-![](https://github.com/SuperNG6/pic/blob/master/aria2/Xnip2019-09-27_19-20-03.png)
+![](https://github.com/SuperNG6/pic/blob/master/baidupcs/Xnip2019-12-19_17-18-20.png)
+![](https://github.com/SuperNG6/pic/blob/master/baidupcs/Xnip2019-12-19_17-18-11.png)
+![](https://github.com/SuperNG6/pic/blob/master/baidupcs/Xnip2019-12-19_17-23-27.png)
 
 ### 权限管理设置
 对你的``docker配置文件夹的根目录``进行如图操作，``你的下载文件夹的根目录``进行相似操作，去掉``管理``这个权限，只给``写入``,``读取``权限
@@ -77,4 +77,4 @@ services:
 ````
 
 # Preview
-![](https://github.com/SuperNG6/pic/blob/master/aria2/Xnip2019-09-27_20-23-40.png)
+![]()
