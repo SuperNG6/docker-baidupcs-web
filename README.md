@@ -1,7 +1,8 @@
 # 离线百度网盘下载Docker版
-Docker Hub：https://hub.docker.com/r/superng6/baidupcs-web
+Docker Hub：https://hub.docker.com/r/superng6/baidupcs-web  
+GitHub：https://github.com/SuperNG6/docker-baidupcs-web  
+博客：https://sleele.com/2020/01/06/在群晖nas上离线下载百度网盘/  
 
-GitHub：https://github.com/SuperNG6/docker-baidupcs-web
 
 
 PS：docker hub的用户是无法看到GitHub中的图片，会显示为框框，具体图文详情可以在我的博客上浏览
